@@ -6,27 +6,27 @@ class Traveler {
     }
 
     get name () {
-        return this._name;
+        return this._name
     }
 
     set name (name) {
-        this._name = name;
+        this._name = name
     }
 
     get food () {
-        return this._food;
+        return this._food
     }
 
     set food (food) {
-        this._food = food;
+        this._food = food
     }
 
     get isHealthy () {
-        return this._isHealthy;
+        return this._isHealthy
     }
     
     set isHealthy (isHealthy) {
-        this._isHealthy = isHealthy;
+        this._isHealthy = isHealthy
     }
 
     hunt(){
@@ -35,10 +35,10 @@ class Traveler {
 
     eat(){
         if (this._food > 0) {
-            this._food -= 1;
-            this._isHealthy = true;
+            this._food -= 1
+            this._isHealthy = true
         } else{
-            this._isHealthy = false;
+            this._isHealthy = false
         }
     }
 }
